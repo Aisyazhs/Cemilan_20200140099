@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Sayuran</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <font face="Arial">
+    <center> <h2> -DATA PEMBELIAN- </h2> </center>
+    </font>
+    <hr>
+    <font size="3" face="Georgia">
+    <center> <table bgcolor="yellow"  border="2" width = "800"> 
+ 
+         <th> Nama Sayur</th>
+        <th>Harga perkilo</th>
+            <th>Jumlah</th>
+            <th>Harga Awal </th>
+            <th>Diskon</th>
+            <th>Harga Diskon</th>
+            <th>Total Bayar</th>
+            <th>Uang Customer </th>
+            <th>Kembalian Uang</th>
+      <tr>
+        <td th:text="${getnama}"></td>
+        <td th:text="${getharga}"></td>
+        <td th:text="${getjumbeli}"></td>
+        <td th:text="${getawal}"></td>
+        <td th:text="${getdisc}"></td>
+        <td th:text="${getjumdisk}"></td>
+        <td th:text="${gettotal}"></td>
+        <td th:text="${getuang}"></td>
+        <td th:text="${kembalian}"></td>
+    </tr>
+        </table> </center>
+    </font>
+    </body>
+</html>
